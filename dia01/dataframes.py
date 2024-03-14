@@ -3,18 +3,18 @@ import pandas as pd
 # %%
 
 data = {
-    "nome":["teo", "nah", "lara", "maria"],
+    "nome": ["teo", "nah", "lara", "maria"],
     "sobrenome": ["calvo", "ataide", "calvo", "calvo"],
     "idade": [31, 32, 31, 2]
 }
 
-#%%
+# %%
 data["idade"][0]
 
 # %%
 df = pd.DataFrame(data)
 df
-#%%
+# %%
 df["idade"].iloc[0]
 
 # %%
@@ -28,7 +28,7 @@ df['idade']
 
 # %%
 
-df.index=[3,2,1,0]
+df.index = [3, 2, 1, 0]
 df
 # %%
 df["idade"][0]
